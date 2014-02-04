@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '~> 2.0'
   s.dependency 'KissXML', '~> 5.0'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-  s.ios.deployment_target = '5.0'
-  s.osx.deployment_target = '10.7'
+  s.ios.deployment_target = '6.0'
+  s.osx.deployment_target = '10.8'
   s.requires_arc = true
 end
